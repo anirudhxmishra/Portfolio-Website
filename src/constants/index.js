@@ -10,15 +10,36 @@ export const ABOUT_TEXT = `I am a dedicated full-stack developer and AI/ML enthu
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "AI/ML Club Member",
+    year: "04/2025 - Present",
+    role: "React Developer Intern",
+    company: "Supista",
+    description: `Developing dynamic, scalable front-end components using Next.js and TypeScript for Supista.com. Built key ERP features like paginated notifications, drag-and-drop Kanban boards, Gantt charts, and advanced TanStack Table integrations. Integrated REST APIs, managed application state, and collaborated with backend and design teams.`,
+    technologies: ["React", "Next.js", "TypeScript", "REST APIs", "TanStack Table", "Metronics"],
+  },
+  {
+    year: "01/2024 - Present",
+    role: "AI/ML Club Co-Lead",
     company: "Shri Mata Vaishno Devi University",
-    description: `Collaborated on AI/ML projects, implementing machine learning models for deep learning, NLP, and computer vision applications. Worked on optimizing data processing pipelines for better efficiency.`,
-    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "PyTorch"],
+    description: `Contributed to web-based platforms for showcasing AI/ML models and visualizations. Developed dashboards and tools for supporting machine learning experiments and results sharing.`,
+    technologies: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Keras"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Real-time Chat Application",
+    image: project3,
+    description:
+      "Developed a full-stack chat app with real-time messaging, authentication, media uploads, and theme switching. Utilized WebSockets for real-time communication and deployed using Render and Cloudinary.",
+    technologies: ["React", "Express", "Node.js", "MongoDB Atlas", "Socket.io", "Daisy UI", "Cloudinary", "Render", "Postman"],
+  },
+  {
+    title: "Task Manager Web App",
+    image: project4,
+    description:
+      "A full-stack task management web app built with RESTful APIs to add, update, and track tasks. Includes UI for task filtering and status updates.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Postman"],
+  },
   {
     title: "Tourism Website Using MERN Stack",
     image: project2,
@@ -31,21 +52,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A real-time action detection system utilizing machine learning to classify human movements with high accuracy. Implemented a deep learning model using TensorFlow and Keras, combined with OpenCV for real-time video analysis. The system is optimized for high performance and can be used in security and sports analytics.",
-    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "MediaPipe","Jupyter Notebook"],
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "MediaPipe", "Jupyter Notebook"],
   },
   {
     title: "Movie Recommender Using ML",
     image: project3,
     description:
       "A content-based movie recommendation system leveraging cosine similarity to suggest similar movies. Designed with a robust data pipeline using Pandas and NumPy for efficient processing. The backend API was built using Flask to handle recommendations based on user preferences.",
-    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Flask","Pycharm","Streamlit"],
-  },
-  {
-    title: "Expense Management App",
-    image: project4,
-    description:
-      "An intuitive expense management application designed to track spending, set budgets, and monitor savings with planned AI/ML integration. The application includes visual analytics, trend predictions, and real-time notifications to help users stay on top of their finances.",
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB","Express.js"],
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Flask", "Pycharm", "Streamlit"],
   },
   {
     title: "Portfolio Website",
@@ -54,6 +68,7 @@ export const PROJECTS = [
       "A modern portfolio website built using React, Tailwind CSS, and Vite. Designed to showcase my skills, projects, and experiences in an interactive and visually appealing manner. Implemented animations, dark mode, and SEO optimizations for a seamless user experience.",
     technologies: ["React.js", "Tailwind CSS", "Vite", "JavaScript"],
   },
+
 ];
 
 export const CONTACT = {
