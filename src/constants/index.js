@@ -1,12 +1,10 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.avif";
+import project4 from "../assets/projects/project-4.avif";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in the MERN stack, AI/ML, and software engineering. I have hands-on experience in building scalable web applications, training AI models, and solving complex problems with efficient solutions. My goal is to leverage technology to create innovative and impactful applications.`;
-
-export const ABOUT_TEXT = `I am a dedicated full-stack developer and AI/ML enthusiast with a strong foundation in web development, data processing, and deep learning. My expertise includes the MERN stack, machine learning frameworks like TensorFlow and PyTorch, and programming in C++, Java, and Python. I actively contribute to AI/ML projects and have developed multiple applications, including real-time action detection and an expense management system. Passionate about continuous learning, I participate in coding competitions and hackathons to refine my problem-solving skills.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in the Full-Stack Web Development, AI/ML. I have hands-on experience in building scalable web applications, training AI models, and solving complex problems with efficient solutions. My goal is to leverage technology to create innovative and impactful applications.`;
 
 export const EXPERIENCES = [
   {
@@ -28,28 +26,21 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Real-time Chat Application",
-    image: project3,
+    image: project1,
     description:
       "Developed a full-stack chat app with real-time messaging, authentication, media uploads, and theme switching. Utilized WebSockets for real-time communication and deployed using Render and Cloudinary.",
     technologies: ["React", "Express", "Node.js", "MongoDB Atlas", "Socket.io", "Daisy UI", "Cloudinary", "Render", "Postman"],
   },
   {
-    title: "Task Manager Web App",
+    title: "Tourism Website Using MERN Stack",
     image: project4,
     description:
-      "A full-stack task management web app built with RESTful APIs to add, update, and track tasks. Includes UI for task filtering and status updates.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Postman"],
-  },
-  {
-    title: "Tourism Website Using MERN Stack",
-    image: project2,
-    description:
       "A tourism website showcasing India's heritage with an interactive UI, custom fonts, and dynamic elements. Integrated real-time data updates, interactive maps, and cultural insights to enhance user experience. Developed using modern frontend frameworks with a responsive design.",
-    technologies: ["React.js", "Node.js", "Express.js", "JavaScript", "MongoDB"],
+    technologies: ["React.js","Tailwind.css"],
   },
   {
     title: "Real-Time Action Detection Using ML",
-    image: project1,
+    image: project2,
     description:
       "A real-time action detection system utilizing machine learning to classify human movements with high accuracy. Implemented a deep learning model using TensorFlow and Keras, combined with OpenCV for real-time video analysis. The system is optimized for high performance and can be used in security and sports analytics.",
     technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "MediaPipe", "Jupyter Notebook"],
