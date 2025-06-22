@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/logo.png";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import SpideyLogo from "./spidyLogo";
 
 const Navbar = () => {
   return (
@@ -11,9 +11,9 @@ const Navbar = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      {/* Logo */}
-      <div className="flex items-center mb-4 sm:mb-0">
-        <img src={logo} alt="logo" className="w-10 h-10" />
+     {/* Spidey Logo */}
+      <div className="mb-4 sm:mb-0">
+        <SpideyLogo/>
       </div>
 
       {/* Social Icons */}

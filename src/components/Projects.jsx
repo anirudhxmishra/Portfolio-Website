@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { PROJECTS } from "../constants";
+import React from "react";
 
 const Projects = () => {
   return (
