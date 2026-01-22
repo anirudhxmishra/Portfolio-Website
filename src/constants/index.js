@@ -9,21 +9,25 @@ export const HERO_CONTENT = `I am a passionate full-stack developer with experti
 
 export const EXPERIENCES = [
   {
-    year: "04/2025 - 08/2025",
-    role: "Frontend Developer Intern",
+    year: "2024 – Present",
+    role: "Full Stack Developer Intern",
     company: "Supista",
-    description: `Developing dynamic, scalable front-end components using Next.js and TypeScript for Supista.com. Built key ERP features like paginated notifications, drag-and-drop Kanban boards, Gantt charts, and advanced TanStack Table integrations. Integrated REST APIs, managed application state, and collaborated with backend and design teams.`,
+    description:
+      "As a Full Stack Developer Intern, I build scalable UIs using React.js, Next.js, and TypeScript. I integrate REST APIs and responsive designs using Metronic, work on code customization and CRUD modules, and handle backend logic, databases, and end-to-end data flow. I actively work on settings.supista and erp.supista to manage and customize application components.",
     technologies: [
-      "React",
+      "React.js",
       "Next.js",
       "TypeScript",
+      "JavaScript",
       "REST APIs",
-      "TanStack Table",
-      "Metronics",
+      "Metronic",
+      "CRUD",
+      "MySQL",
+      "Node.js",
     ],
   },
   {
-    year: "07/2025 - Present",
+    year: "07/2025 - 01/2026",
     role: "AI/ML Club Co-Lead",
     company: "Shri Mata Vaishno Devi University",
     description: `Contributed to web-based platforms for showcasing AI/ML models and visualizations. Developed dashboards and tools for supporting machine learning experiments and results sharing.`,
